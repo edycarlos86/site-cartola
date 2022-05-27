@@ -61,14 +61,13 @@ caption {
 }
 
 table#one, table#two, table#tree {
-    width: 310px;
+    width: 407px;
     border-collapse: collapse;    
 }
 
 table#one td, th, td{
     border: 1px solid;
     padding: 8px;
-    font-size: 0.7em;
 }
 
 th {
