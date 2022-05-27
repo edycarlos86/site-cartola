@@ -54,7 +54,7 @@ main h1 {
 
 caption {
     font-size: 1.5em;
-    background-color: #BF6734;
+    background-color: black;
     font-weight: bold;
     color: white;
     padding: 8px;
@@ -69,8 +69,7 @@ table#one, table#two, table#tree {
 table#one td, th, td{
     border: 1px solid;
     padding: 8px;
-    font-size: 0.7em;
-    
+    font-size: 0.7em;    
 }
 
 th {
@@ -83,6 +82,10 @@ th {
 
 .amarelo {
     background-color:yellow ;
+}
+
+table#one > td.num{
+    text-align: right;
 }
 
 footer {
