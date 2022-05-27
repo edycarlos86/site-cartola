@@ -19,6 +19,19 @@ div img {
     width: 100%;
 }
 
+section > table#one, table#two, table#tree {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section > table#one {
+    margin-bottom: 10px;
+}
+
+section > legend {
+    text-align: center;
+}
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -39,35 +52,34 @@ main h1 {
     text-shadow: 3px 3px 3px #161616;
 }
 
-table#one {
-    width: 404px;
-    border-collapse: collapse;
-    
+caption {
+    font-size: 1.5em;
+    background-color: #BF6734;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
 }
 
-table#one td{
+table#one, table#two, table#tree {
+    width: 407px;
+    border-collapse: collapse;    
+}
+
+table#one td, th, td{
     border: 1px solid;
     padding: 8px;
 }
 
-div table#two {
-    width: 200px;
-    border-collapse: collapse;
+th {
+    background-color:rgb(201, 193, 193) ;
 }
 
-table#two td {
-    border: 1px solid black;
-    padding: 8px;
+.verde {
+    background-color:rgb(8, 252, 8)  ;
 }
 
-div table#tree {
-    width: 400px;
-    border-collapse: collapse;
-}
-
-table#tree td {
-    border: 1px solid black;
-    padding: 8px;
+.amarelo {
+    background-color:yellow ;
 }
 
 footer {
