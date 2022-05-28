@@ -34,7 +34,7 @@ section > legend {
 
 main {
     min-width: 300px;
-    max-width: 400px;
+    max-width: 320px;
     margin: auto;
     padding: 20px;
     background-color:#E3E3E1 ;
@@ -57,10 +57,10 @@ caption {
     background-color: black;
     font-weight: bold;
     color: white;
-    padding: 8px;
+    padding: 8px;    
 }
 
-table#one, table#two, table#tree {
+table#one, table#two, table#tree, table#for {
     width: 310px;
     border-collapse: collapse;  
       
@@ -82,6 +82,13 @@ th {
 
 .amarelo {
     background-color:yellow ;
+}
+
+legend {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
 }
 
 table#one > td.num{
