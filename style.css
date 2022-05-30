@@ -68,7 +68,7 @@ table#one, table#two, table#tree, table#for {
 }
 
 table#one td, th, td{
-    border: 1px solid;
+    border: 1px solid white;
     padding: 8px;
     font-size: 0.7em;    
 }
@@ -85,6 +85,8 @@ th {
     background-color:yellow ;
 }
 
+.
+
 legend {
     background-color: white;
     border-radius: 10px;
@@ -92,7 +94,7 @@ legend {
     margin: auto;
 }
 
-table#one > td.num{
+.num{
     text-align: right;
 }
 
