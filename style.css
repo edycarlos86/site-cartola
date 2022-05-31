@@ -85,7 +85,9 @@ th {
     background-color:yellow ;
 }
 
-.
+.orange{
+    background-color: rgba(230, 212, 132, 0.904);
+}
 
 legend {
     background-color: white;
