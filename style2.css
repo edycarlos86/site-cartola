@@ -48,6 +48,7 @@ table,tr,th,td{
 section > table {
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 tr.divisao td {
@@ -74,4 +75,12 @@ tr.topo th{
 .black{
     background-color: black;
     color: white;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8em; 
+    padding: 5px;   
 }
