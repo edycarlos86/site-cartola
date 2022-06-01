@@ -1,7 +1,10 @@
 body{
-    background-color: rgb(217, 240, 240);
-    text-align: justify;
-    padding: 50px;
+    background-color: rgb(217, 240, 240);    
+}
+
+section{
+    text-align: justify;    
+    margin: 25px;
 }
 
 h1{
