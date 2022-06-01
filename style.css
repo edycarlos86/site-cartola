@@ -15,6 +15,26 @@ header {
     min-height: 150px;     
 }
 
+nav {
+    text-align: center;
+    margin-bottom: 25px;    
+}
+
+nav > a {
+    background-color: #F063F2;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+nav a:hover {
+    background-color:rgba(230, 212, 132, 0.904);
+    color: blueviolet;
+}
+
 div img {
     width: 100%;
 }
@@ -49,7 +69,7 @@ main h1 {
     margin: 00px;
     margin-bottom: 40px;
     color: #F063F2;
-    text-shadow: 3px 3px 3px #161616dc;
+    text-shadow: 2px 2px 3px #16161693;
     font-size: 1.5em;
 }
 
@@ -59,6 +79,11 @@ caption {
     font-weight: bold;
     color: white;
     padding: 8px;    
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
 }
 
 table#one, table#two, table#tree, table#for {
@@ -78,7 +103,7 @@ th {
 }
 
 .verde {
-    background-color:rgb(8, 252, 8)  ;
+    background-color:rgba(8, 252, 8, 0.699)  ;
 }
 
 .amarelo {
@@ -90,7 +115,7 @@ th {
 }
 
 legend {
-    background-color: white;
+    background-color: rgb(102, 63, 63);
     border-radius: 10px;
     width: 300px;
     margin: auto;
