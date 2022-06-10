@@ -87,7 +87,7 @@ thead > tr > th {
 }
 
 table#one, table#two, table#tree, table#for {
-    width: 310px;
+    width: 320px;
     border-collapse: collapse;  
       
 }
