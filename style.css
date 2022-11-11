@@ -94,7 +94,7 @@ table#one, table#two, table#tree, table#for {
 
 table#one td, th, td{
     border: 1px solid white;
-    padding: 8px;
+    padding: 6px;
     font-size: 0.7em;    
 }
 
