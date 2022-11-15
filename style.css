@@ -41,7 +41,7 @@ div img {
 
 section > table#one, table#two, table#tree {
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 section > table#one {
@@ -135,4 +135,7 @@ footer {
 
 p{
     color: rgb(255,0,0);
+}
+.principal {
+    margin-bottom: 20px;
 }
